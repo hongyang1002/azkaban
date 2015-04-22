@@ -77,8 +77,8 @@
                 <p><strong>Duration</strong> <span id="duration">-</span></p>
               </div>
               <div class="col-xs-7">
-                <p><strong>Start Time</strong> <span id="startTime">-</span></p>
-                <p><strong>End Time</strong> <span id="endTime">-</span></p>
+                <p><strong>开始时间</strong> <span id="startTime">-</span></p>
+                <p><strong>结束时间</strong> <span id="endTime">-</span></p>
               </div>
             </div>
             <div class="clearfix"></div>
@@ -107,9 +107,9 @@
         <li id="jobslistViewLink"><a href="#jobslist">Job List</a></li>
         <li id="flowLogViewLink"><a href="#log">Flow Log</a></li>
         <li id="statsViewLink"><a href="#stats">Stats</a></li>
-        <li class="nav-button pull-right"><button type="button" id="pausebtn" class="btn btn-primary btn-sm">Pause</button></li>
-        <li class="nav-button pull-right"><button type="button" id="resumebtn" class="btn btn-primary btn-sm">Resume</button></li>
-        <li class="nav-button pull-right"><button type="button" id="cancelbtn" class="btn btn-danger btn-sm">Kill</button></li>
+        <li class="nav-button pull-right"><button type="button" id="pausebtn" class="btn btn-primary btn-sm">暂停</button></li>
+        <li class="nav-button pull-right"><button type="button" id="resumebtn" class="btn btn-primary btn-sm">恢复</button></li>
+        <li class="nav-button pull-right"><button type="button" id="cancelbtn" class="btn btn-danger btn-sm">结束</button></li>
         <li class="nav-button pull-right"><button type="button" id="retrybtn" class="btn btn-success btn-sm">Retry Failed</button></li>
         <li class="nav-button pull-right"><button type="button" id="executebtn" class="btn btn-success btn-sm">Prepare Execution</button></li>
       </ul>

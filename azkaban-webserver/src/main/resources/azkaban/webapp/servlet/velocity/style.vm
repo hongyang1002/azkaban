@@ -31,6 +31,16 @@
       .navbar-inverse .navbar-nav > .active >a {
         border-bottom: 1px solid ${azkaban_color};
       }
+	  
+		.permission-table .tb-username,
+		.permission-table .tb-perm,
+		.permission-table .tb-read,
+		.permission-table .tb-write,
+		.permission-table .tb-execute,
+		.permission-table .tb-schedule{
+			width:50px;
+		}
+           
     </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

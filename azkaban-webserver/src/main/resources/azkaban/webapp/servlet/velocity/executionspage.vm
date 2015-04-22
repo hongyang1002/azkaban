@@ -57,8 +57,8 @@
 ## Page Content
 
       <ul class="nav nav-tabs nav-sm" id="header-tabs">
-        <li id="currently-running-view-link"><a href="#currently-running">Currently Running</a></li>
-        <li id="recently-finished-view-link"><a href="#recently-finished">Recently Finished</a></li>
+        <li id="currently-running-view-link"><a href="#currently-running">当前运行</a></li>
+        <li id="recently-finished-view-link"><a href="#recently-finished">近期结束</a></li>
       </ul>
 
       <div class="row" id="currently-running-view">
@@ -70,12 +70,12 @@
                 <th class="execid">Execution Id</th>
                 <th>Flow</th>
                 <th>Project</th>
-                <th class="user">User</th>
-                <th class="user">Proxy</th>
-                <th class="date">Start Time</th>
-                <th class="date">End Time</th>
+                <th class="user">用户</th>
+                <th class="user">代理</th>
+                <th class="date">开始时间</th>
+                <th class="date">结束时间</th>
                 <th class="elapse">Elapsed</th>
-                <th class="status">Status</th>
+                <th class="status">状态</th>
                 <th class="action">Action</th>
               </tr>
             </thead>
@@ -121,12 +121,12 @@
                 <th class="execid">Execution Id</th>
                 <th>Flow</th>
                 <th>Project</th>
-                <th class="user">User</th>
-                <th class="user">Proxy</th>
-                <th class="date">Start Time</th>
-                <th class="date">End Time</th>
+                <th class="user">用户</th>
+                <th class="user">代理</th>
+                <th class="date">开始时间</th>
+                <th class="date">结束时间</th>
                 <th class="elapse">Elapsed</th>
-                <th class="status">Status</th>
+                <th class="status">状态</th>
                 <th class="action">Action</th>
               </tr>
             </thead>
@@ -155,7 +155,7 @@
   #end
 #else
               <tr>
-                <td colspan="10">No Recently Finished</td>
+                <td colspan="10">暂无近期结束的</td>
               </tr>
 #end
             </tbody>

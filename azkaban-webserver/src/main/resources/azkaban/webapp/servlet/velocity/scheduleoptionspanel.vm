@@ -17,33 +17,33 @@
 <div id="scheduleModalBackground" class="modalBackground2">
   <div id="schedule-options" class="modal modalContainer2">
     <a href='#' title='Close' class='modal-close'>x</a>
-      <h3>Schedule Flow Options</h3>
+      <h3>流程调度选项</h3>
       <div>
         <ul class="optionsPicker">
-          <li id="scheduleGeneralOptions">General Options</li>
-          <li id="scheduleFlowOptions">Flow Options</li>
-          <!--li id="scheduleSlaOptions">SLA Options</li-->
+          <li id="scheduleGeneralOptions">常规选项</li>
+          <li id="scheduleFlowOptions">流程选项</li>
+          <!--li id="scheduleSlaOptions">SLA 选项</li-->
         </ul>
       </div>
       <div class="optionsPane">
         <!--div id="scheduleSlaPanel" class="generalPanel panel">
           <div id="slaActions">
-            <h4>SLA Alert Emails</h4>
+            <h4>SLA 告警邮箱</h4>
             <dl>
-              <dt >SLA Alert Emails</dt>
+              <dt >SLA 告警邮箱<</dt>
               <dd>
                 <textarea id="slaEmails"></textarea>
               </dd>
             </dl>
           </div>
           <div id="slaRules">
-            <h4>Flow SLA Rules</h4>
+            <h4>流程 SLA 规则</h4>
             <div class="tableDiv">
               <table id="flowRulesTbl">
                 <thead>
                   <tr>
-                    <th>Flow/Job</th>
-                    <th>Finish In</th>
+                    <th>流程/任务</th>
+                    <th>结束于</th>
                     <th>Email Action</th>
                     <th>Kill Action</th>
                   </tr>
@@ -52,7 +52,7 @@
                 </tbody>
               </table>
             </div>
-            <h4>Job SLA Rules</h4>
+            <h4>任务 SLA 规则</h4>
             <div class="tableDiv">
               <table id="jobRulesTbl">
                 <thead>
@@ -72,7 +72,7 @@
         <div id="scheduleGeneralPanel" class="generalPanel panel">
           <div id="scheduleInfo">
             <dl>
-              <dt>Schedule Time</dt>
+              <dt>调度时间</dt>
               <dd>
                 <input id="advhour" type="text" size="2" value="12"/>
                 <input id="advminutes" type="text" size="2" value="00"/>
@@ -118,9 +118,9 @@
               <dd>
                 <textarea id="scheduleFailureEmails"></textarea>
               </dd>
-              <dt>Notify on Failure</dt>
+              <dt>失败提醒</dt>
               <dd>
-                <input id="scheduleNotifyFailureFirst" class="checkbox" type="checkbox" name="notify" value="first" checked >First Failure</input>
+                <input id="scheduleNotifyFailureFirst" class="checkbox" type="checkbox" name="notify" value="first" checked >首次失败</input>
                 <input id="scheduleNotifyFailureLast" class="checkbox" type="checkbox" name="notify" value="last">Flow Stop</input>
               </dd>
               <dt>Success Email</dt>
@@ -168,7 +168,7 @@
         </div>
     </div>
     <div class="actions">
-  <a class="yes btn1" id="adv-schedule-btn" href="#">Schedule</a>
+  <a class="yes btn1" id="adv-schedule-btn" href="#">调度</a>
   <a class="no simplemodal-close btn3" id="schedule-cancel-btn" href="#">Cancel</a>
   </div>
   </div>

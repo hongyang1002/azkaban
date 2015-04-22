@@ -49,7 +49,7 @@
 
     <div class="az-page-header">
       <div class="container-full">
-        <h1>All Triggers</h1>
+        <h1>所有触发器</h1>
       </div>
     </div>
 
@@ -83,7 +83,7 @@
               </tr>
     #end
   #else
-              <tr><td class="last">No Trigger Found</td></tr>
+              <tr><td class="last">暂无</td></tr>
   #end
             </tbody>
           </table>
