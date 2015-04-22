@@ -17,14 +17,16 @@
 package azkaban.restli;
 
 import java.util.UUID;
+
 import javax.servlet.ServletException;
+
 import org.apache.log4j.Logger;
 
-import azkaban.restli.user.User;
+import azkaban.server.session.Session;
+import azkaban.user.User;
 import azkaban.user.UserManager;
 import azkaban.user.UserManagerException;
 import azkaban.webapp.AzkabanWebServer;
-import azkaban.server.session.Session;
 
 import com.linkedin.restli.server.annotations.Action;
 import com.linkedin.restli.server.annotations.ActionParam;
@@ -66,8 +68,7 @@ public class UserManagerResource extends ResourceContextHolder {
     azkaban.user.User azUser = session.getUser();
 
     // Fill out the restli object with properties from the Azkaban user
-    User user = new User();
-    user.setUserId(azUser.getUserId());
+    User user = new User(azUser.getUserId());
     user.setEmail(azUser.getEmail());
     return user;
   }
